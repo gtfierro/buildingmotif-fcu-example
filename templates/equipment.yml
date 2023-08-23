@@ -10,7 +10,7 @@ fcu:
       brick:hasPart P:hw_coil, P:chw_coil .
     P:zone a brick:HVAC_Zone ;
       brick:hasPart P:room .
-  optional: ['occ_cmd','occ_status','occ_clg_sp','unocc_clg_sp','occ_htg_sp','unocc_htg_sp']
+  # optional: ['occ_cmd','occ_status','occ_clg_sp','unocc_clg_sp','occ_htg_sp','unocc_htg_sp']
   dependencies:
     - template:  https://brickschema.org/schema/Brick#Occupancy_Command
       library: https://brickschema.org/schema/1.3/Brick
